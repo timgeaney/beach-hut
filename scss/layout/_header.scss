@@ -1,0 +1,34 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * HEADER STYLES.
+ * ----------------------------------------------------------------------------------------
+ */
+
+ .l-header {
+    // background-color: $color-banner;
+    vertical-align: middle;
+    li {
+    	list-style: none;
+    }
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.logo {
+    // background-color: #F1F4F9;
+    float:left;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+   img {
+   	height:80px;
+   }
+   
+}

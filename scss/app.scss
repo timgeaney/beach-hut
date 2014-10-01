@@ -1,4 +1,5 @@
 // My Styles
+@import "utilities/settings";
 @import "base/normalize";
 @import "base/base";
 @import "fonts/fonts";
@@ -7,3 +8,9 @@
 @import "layout/footer";
 @import "layout/content";
 @import "layout/grid";
+@import "modules/buttons";
+@import "modules/dividers";
+@import "modules/forms";
+
+
+

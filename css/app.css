@@ -1,3 +1,11 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Site settings.
+ * ----------------------------------------------------------------------------------------
+ */
+/* Typography */
+/* Colors */
+/* Positioning */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -354,20 +362,312 @@ td,
 th {
   padding: 0; }
 
+/**
+ * ----------------------------------------------------------------------------------------
+ * BASE STYLES.
+ * ----------------------------------------------------------------------------------------
+ */
+body {
+  background-color: #f9f9f9; }
+
+h1, h2 {
+  margin: 0; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  text-align: left;
+  letter-spacing: 4px; }
+
+h2 {
+  color: #ccc;
+  font-family: 'brandon_grotesque_lightRg', serif;
+  /* 1 */
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 1em;
+  text-align: left; }
+
+h3 {
+  color: #696969;
+  font-family: 'brandon_grotesque_lightRg';
+  text-transform: uppercase;
+  font-size: 3em; }
+
+h4 {
+  color: #696969;
+  font-family: 'brandon_grotesque_lightRg';
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 2% 0; }
+
+h5 {
+  font-family: 'brandon_grotesque_lightRg', serif;
+  /* 1 */
+  text-transform: uppercase;
+  font-size: .75em;
+  line-height: 1em;
+  color: #474747;
+  padding: 0 0 2% 0;
+  border-bottom: 1px solid #e6e6e6; }
+
+h6 {
+  color: #474747;
+  font-family: 'brandon_grotesque_lightRg', serif;
+  /* 1 */
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 20px 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+p {
+  font-family: 'brandon_grotesque_lightRg';
+  font-size: 1.5em;
+  line-height: 1.75em;
+  color: #8c9296; }
+
+ul li {
+  font-size: 1.15em; }
+
+a {
+  text-decoration: none; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, #a18e5c, transparent);
+  background-image: -moz-linear-gradient(left, transparent, #a18e5c, transparent);
+  background-image: -ms-linear-gradient(left, transparent, #a18e5c, transparent);
+  background-image: -o-linear-gradient(left, transparent, #a18e5c, transparent); }
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+  font-family: 'brandon_grotesque_bolditalic';
+  src: url("webfonts/brandon_bld_it-webfont.eot");
+  src: url("webfonts/brandon_bld_it-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_bld_it-webfont.woff") format("woff"), url("webfonts/brandon_bld_it-webfont.ttf") format("truetype"), url("webfonts/brandon_bld_it-webfont.svg#brandon_grotesque_bolditalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque_boldregular';
+  src: url("webfonts/brandon_bld-webfont.eot");
+  src: url("webfonts/brandon_bld-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_bld-webfont.woff") format("woff"), url("webfonts/brandon_bld-webfont.ttf") format("truetype"), url("webfonts/brandon_bld-webfont.svg#brandon_grotesque_boldregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque_blackitalic';
+  src: url("webfonts/brandon_blk_it-webfont.eot");
+  src: url("webfonts/brandon_blk_it-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_blk_it-webfont.woff") format("woff"), url("webfonts/brandon_blk_it-webfont.ttf") format("truetype"), url("webfonts/brandon_blk_it-webfont.svg#brandon_grotesque_blackitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque_blackRg';
+  src: url("webfonts/brandon_blk-webfont.eot");
+  src: url("webfonts/brandon_blk-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_blk-webfont.woff") format("woff"), url("webfonts/brandon_blk-webfont.ttf") format("truetype"), url("webfonts/brandon_blk-webfont.svg#brandon_grotesque_blackRg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque_lightitalic';
+  src: url("webfonts/brandon_light_it-webfont.eot");
+  src: url("webfonts/brandon_light_it-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_light_it-webfont.woff") format("woff"), url("webfonts/brandon_light_it-webfont.ttf") format("truetype"), url("webfonts/brandon_light_it-webfont.svg#brandon_grotesque_lightitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'brandon_grotesque_lightRg';
+  src: url("webfonts/brandon_light-webfont.eot");
+  src: url("webfonts/brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_light-webfont.woff") format("woff"), url("webfonts/brandon_light-webfont.ttf") format("truetype"), url("webfonts/brandon_light-webfont.svg#brandon_grotesque_lightRg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/**
+ * ----------------------------------------------------------------------------------------
+ * Nav styles.
+ * ----------------------------------------------------------------------------------------
+ */
+nav {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-top: 9%;
+  float: right; }
+  nav i {
+    margin-right: 10px; }
+
+nav a {
+  font-family: 'Raleway', sans-serif;
+  /* 1 */
+  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0px 0px;
+  outline: none;
+  color: #02aedc;
+  text-decoration: none; }
+
+nav a:hover,
+nav a:focus {
+  outline: none; }
+
+/* Effect 21: borders slight translate */
+.nav-highlight a {
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 10px;
+  color: #02aedc;
+  font-weight: 400;
+  text-shadow: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.nav-highlight a::before,
+.nav-highlight a::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #a18e5c;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+.nav-highlight a::before {
+  top: 0;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+.nav-highlight a::after {
+  bottom: 0;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px); }
+
+.nav-highlight a:hover,
+.nav-highlight a:focus {
+  color: #a18e5c; }
+
+.nav-highlight a:hover::before,
+.nav-highlight a:focus::before,
+.nav-highlight a:hover::after,
+.nav-highlight a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px); }
+
+.ss-icon {
+  font-size: 1.25em;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center; }
+
+.ss-icon a {
+  margin-left: 10px;
+  color: #02aedc; }
+
+.ss-icon a:hover {
+  color: #a18e5c; }
+
+.header-divider {
+  border-left: 2px solid black;
+  height: 60px;
+  margin-left: 20px; }
+
+.sign-up {
+  background-color: #02aedc;
+  font-family: 'brandon_grotesque_boldregular', serif;
+  /* 1 */
+  font-size: 1.5em; }
+
+.link-class {
+  display: table-cell;
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding-top: 33%;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 25px; }
+
+.sign-up:hover {
+  background-color: #2b2b2b; }
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * HEADER STYLES.
+ * ----------------------------------------------------------------------------------------
+ */
+.l-header {
+  vertical-align: middle; }
+  .l-header li {
+    list-style: none; }
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.logo {
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .logo img {
+    height: 80px; }
+
+/**
+ * ----------------------------------------------------------------------------------------
+ *  FOOTER STYLES.
+ * ----------------------------------------------------------------------------------------
+ */
+.footer {
+  background-color: #f8f8f8; }
+  .footer li {
+    list-style: none; }
+
+.social-icons {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #a18e5c; }
+  .social-icons a {
+    color: #02aedc;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-bottom: 20px; }
+
+.social-icons a:hover {
+  color: #a18e5c; }
+
 .banner {
   width: 100%;
-  background-color: red;
+  background-color: lightblue;
   color: white; }
 
 .footer {
   width: 100%;
   background-color: blue;
   color: white; }
-
-.nav a {
-  position: relative;
-  display: inline-block;
-  float: right; }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -386,7 +686,7 @@ th {
 [class^='l-col-'] {
   float: left;
   min-height: 1px;
-  padding-right: 20px; }
+  padding-right: 10px; }
   .l-row [class^='l-col-']:last-of-type {
     padding-right: 0; }
 
@@ -413,9 +713,9 @@ th {
 
 /* Opt-in outside padding */
 .l-row-pad {
-  padding: 20px 0 20px 20px; }
+  padding: 10px 0 10px 10px; }
   .l-row-pad [class^='l-col-']:last-of-type {
-    padding-right: 20px; }
+    padding-right: 10px; }
 
 .module {
   padding: 20px;
@@ -427,3 +727,105 @@ th {
 
 .col-right {
   float: right; }
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * BTN STYLES.
+ * ----------------------------------------------------------------------------------------
+ */
+.btn a:hover {
+  color: #fff; }
+
+.btn-su {
+  font-family: 'brandon_grotesque_lightRg', serif;
+  /* 1 */
+  font-size: 3em;
+  padding: 20px 60px;
+  color: #fff;
+  background-color: #02aedc;
+  margin-right: 16px;
+  margin-top: 16px; }
+
+.btn-su:hover {
+  background-color: #2b2b2b;
+  color: #fff; }
+
+/* Outline Inward */
+.outline-inward {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent; }
+
+.outline-inward:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #2b2b2b solid 4px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left; }
+
+.outline-inward:hover:before, .outline-inward:focus:before, .outline-inward:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1; }
+
+/* Outline Inward Circlular*/
+.outline-inward-circ {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent; }
+
+.outline-inward-circ:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #2a879e solid 4px;
+  border-radius: 50%;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left; }
+
+.outline-inward-circ:hover:before, .outline-inward:focus:before, .outline-inward:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1; }
+
+.share-button {
+  padding-top: 10px;
+  margin: auto; }
+
+.contact-icon {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3.8rem;
+  color: #a18e5c; }
+  .contact-icon a {
+    color: #02aedc;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-bottom: 20px; }
+
+.contact-icon a:hover {
+  color: #a18e5c; }

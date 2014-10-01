@@ -1,0 +1,121 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * BTN STYLES.
+ * ----------------------------------------------------------------------------------------
+ */
+
+ .btn a:hover {
+    color: #fff;
+}
+
+.btn-su {
+  font-family: 'brandon_grotesque_lightRg', serif; /* 1 */
+  font-size: 3em;
+  padding: 20px 60px;
+  color: #fff;
+  background-color: #02aedc;
+  margin-right: 16px;
+  margin-top: 16px; }
+
+
+.btn-su:hover {
+  background-color:#2b2b2b;
+  color: #fff; }
+
+/* Outline Inward */
+.outline-inward {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.outline-inward:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #2b2b2b solid 4px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+
+
+.outline-inward:hover:before, .outline-inward:focus:before, .outline-inward:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+}
+
+/* Outline Inward Circlular*/
+.outline-inward-circ {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.outline-inward-circ:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #2a879e solid 4px;
+  border-radius: 50%;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+
+
+.outline-inward-circ:hover:before, .outline-inward:focus:before, .outline-inward:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+}
+
+.share-button {
+  padding-top: 10px;
+  margin: auto;
+
+ 
+}
+
+
+.contact-icon {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3.8rem;
+  color: $color-5;
+  a {
+    color: #02aedc;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+ }
+
+ .contact-icon a:hover
+   {
+  color: $color-5;
+ }
+
+
+
+
