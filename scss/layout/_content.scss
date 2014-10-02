@@ -1,11 +1,60 @@
 .banner {
 	width: 100%;
-	background-color: lightblue;
+	height: 400px;
+	}
+.hero-img {
+	max-width: 100%;
+}
+
+.services {
+	height:150px;
+}
+
+.website {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: #e0f8fa;
+	height: 400px;
+}
+
+.headline {
+	background-color: #52dbeb;
 	color: white;
 }
 
-.footer {
+.tagline {
 	width: 100%;
-	background-color: blue;
-	color: white;
+	background-color: #52dbeb;
+	h1 {
+		font-family: 'Lobster Two', cursive;
+		text-transform: lowercase;
+		color: white;
+		text-align: center;
+		text-shadow: 2px 2px grey;
+	}
 }
+
+
+.service-icon  {
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	text-align: center;
+ 	i {
+ 		font-size: 4rem;
+ 		color: #52dbeb;	
+ 	}
+
+
+
+ }
+
+.service-icon i:hover {
+ 	color: $color-5;
+ }
+
+.services {
+	text-align: center;
+}
+

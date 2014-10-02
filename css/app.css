@@ -382,29 +382,29 @@ h1 {
 
 h2 {
   color: #ccc;
-  font-family: 'brandon_grotesque_lightRg', serif;
+  font-family: 'Raleway', sans-serif;
   /* 1 */
   font-weight: normal;
   font-size: 1.25em;
-  line-height: 1em;
+  line-height: 1.2em;
   text-align: left; }
 
 h3 {
   color: #696969;
-  font-family: 'brandon_grotesque_lightRg';
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-size: 3em; }
+  font-size: 1em; }
 
 h4 {
   color: #696969;
-  font-family: 'brandon_grotesque_lightRg';
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 2em;
   line-height: 1.25em;
   margin: 2% 0; }
 
 h5 {
-  font-family: 'brandon_grotesque_lightRg', serif;
+  font-family: 'Raleway', sans-serif;
   /* 1 */
   text-transform: uppercase;
   font-size: .75em;
@@ -415,7 +415,7 @@ h5 {
 
 h6 {
   color: #474747;
-  font-family: 'brandon_grotesque_lightRg', serif;
+  font-family: 'Raleway', sans-serif;
   /* 1 */
   font-weight: normal;
   font-size: 1em;
@@ -428,7 +428,7 @@ img {
   height: auto; }
 
 p {
-  font-family: 'brandon_grotesque_lightRg';
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   line-height: 1.75em;
   color: #8c9296; }
@@ -450,42 +450,6 @@ hr {
 /* ==========================================================================
    Fonts
    ========================================================================== */
-@font-face {
-  font-family: 'brandon_grotesque_bolditalic';
-  src: url("webfonts/brandon_bld_it-webfont.eot");
-  src: url("webfonts/brandon_bld_it-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_bld_it-webfont.woff") format("woff"), url("webfonts/brandon_bld_it-webfont.ttf") format("truetype"), url("webfonts/brandon_bld_it-webfont.svg#brandon_grotesque_bolditalic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'brandon_grotesque_boldregular';
-  src: url("webfonts/brandon_bld-webfont.eot");
-  src: url("webfonts/brandon_bld-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_bld-webfont.woff") format("woff"), url("webfonts/brandon_bld-webfont.ttf") format("truetype"), url("webfonts/brandon_bld-webfont.svg#brandon_grotesque_boldregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'brandon_grotesque_blackitalic';
-  src: url("webfonts/brandon_blk_it-webfont.eot");
-  src: url("webfonts/brandon_blk_it-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_blk_it-webfont.woff") format("woff"), url("webfonts/brandon_blk_it-webfont.ttf") format("truetype"), url("webfonts/brandon_blk_it-webfont.svg#brandon_grotesque_blackitalic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'brandon_grotesque_blackRg';
-  src: url("webfonts/brandon_blk-webfont.eot");
-  src: url("webfonts/brandon_blk-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_blk-webfont.woff") format("woff"), url("webfonts/brandon_blk-webfont.ttf") format("truetype"), url("webfonts/brandon_blk-webfont.svg#brandon_grotesque_blackRg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'brandon_grotesque_lightitalic';
-  src: url("webfonts/brandon_light_it-webfont.eot");
-  src: url("webfonts/brandon_light_it-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_light_it-webfont.woff") format("woff"), url("webfonts/brandon_light_it-webfont.ttf") format("truetype"), url("webfonts/brandon_light_it-webfont.svg#brandon_grotesque_lightitalic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'brandon_grotesque_lightRg';
-  src: url("webfonts/brandon_light-webfont.eot");
-  src: url("webfonts/brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/brandon_light-webfont.woff") format("woff"), url("webfonts/brandon_light-webfont.ttf") format("truetype"), url("webfonts/brandon_light-webfont.svg#brandon_grotesque_lightRg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 /**
  * ----------------------------------------------------------------------------------------
  * Nav styles.
@@ -510,7 +474,7 @@ nav a {
   vertical-align: bottom;
   margin: 0px 0px;
   outline: none;
-  color: #02aedc;
+  color: navy;
   text-decoration: none; }
 
 nav a:hover,
@@ -520,10 +484,10 @@ nav a:focus {
 /* Effect 21: borders slight translate */
 .nav-highlight a {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: top;
   padding: 10px;
-  color: #02aedc;
-  font-weight: 400;
+  color: grey;
+  font-weight: 200;
   text-shadow: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -535,7 +499,7 @@ nav a:focus {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #a18e5c;
+  background: white;
   content: '';
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -559,7 +523,7 @@ nav a:focus {
 
 .nav-highlight a:hover,
 .nav-highlight a:focus {
-  color: #a18e5c; }
+  color: white; }
 
 .nav-highlight a:hover::before,
 .nav-highlight a:focus::before,
@@ -615,7 +579,9 @@ nav a:focus {
  * ----------------------------------------------------------------------------------------
  */
 .l-header {
-  vertical-align: middle; }
+  vertical-align: top;
+  width: 100%;
+  background-color: #52dbeb; }
   .l-header li {
     list-style: none; }
 
@@ -661,13 +627,49 @@ nav a:focus {
 
 .banner {
   width: 100%;
-  background-color: lightblue;
+  height: 400px; }
+
+.hero-img {
+  max-width: 100%; }
+
+.services {
+  height: 150px; }
+
+.website {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #e0f8fa;
+  height: 400px; }
+
+.headline {
+  background-color: #52dbeb;
   color: white; }
 
-.footer {
+.tagline {
   width: 100%;
-  background-color: blue;
-  color: white; }
+  background-color: #52dbeb; }
+  .tagline h1 {
+    font-family: 'Lobster Two', cursive;
+    text-transform: lowercase;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px grey; }
+
+.service-icon {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+  .service-icon i {
+    font-size: 4rem;
+    color: #52dbeb; }
+
+.service-icon i:hover {
+  color: #a18e5c; }
+
+.services {
+  text-align: center; }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -675,7 +677,7 @@ nav a:focus {
   box-sizing: border-box; }
 
 .l-row {
-  width: 1170px;
+  width: 960px;
   margin: auto; }
   .l-row:after {
     /* Or @extend clearfix */
@@ -829,3 +831,20 @@ nav a:focus {
 
 .contact-icon a:hover {
   color: #a18e5c; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, #a18e5c, transparent);
+  background-image: -moz-linear-gradient(left, transparent, #a18e5c, transparent);
+  background-image: -ms-linear-gradient(left, transparent, #a18e5c, transparent);
+  background-image: -o-linear-gradient(left, transparent, #a18e5c, transparent); }
+
+.headroom {
+  transition: transform 200ms linear; }
+
+.headroom--pinned {
+  transform: translateY(0%); }
+
+.headroom--unpinned {
+  transform: translateY(-100%); }
